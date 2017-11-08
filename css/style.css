@@ -1,0 +1,164 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.page-starter{
+	position: relative;
+	left: 0;
+	top: 0;
+	height: 9vh;
+	background-color: #363636;
+	margin: 0 auto;
+	width: 100%;
+	z-index: 10;
+}
+
+#navbar{
+	background: #D0D0FF;
+	padding: 0;
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.navbar-brand{
+	position: relative;
+	opacity: 0.8;
+	font-weight: 700;
+	font-size: 3em;
+	text-align: center;
+}
+
+#brand{
+	background-color: #bbb;
+	font-family: serif;
+	font-weight: 1000;
+}
+
+#navbar-items{
+	text-align: center;
+	padding: 1vh;
+}
+
+#navbar-items ul{
+	list-style: none;
+	margin: auto;
+	font-weight: 700;
+	font-size: 3em;
+}
+
+#navbar-items ul li{
+	align-content: center;
+	border-right: 1px solid gray;
+	margin: auto;
+	display: inline-block;
+	line-height: 5vh;
+	padding: 2vh 5px;
+}
+
+#navbar-items ul li:hover{
+	background-color: #bbb;
+	cursor: pointer;
+	box-sizing: border-box;
+	opacity: 0.6;
+	background-size: contain;
+}
+
+.introduction{
+	height: 69vh;
+	background: rgb(2, 168, 243);
+	align-content: center;
+	text-align: center;
+	padding: 180px 0;
+}
+
+.introduction p{
+	font-weight: 700;
+	font-family: Oswald,sans-serif;
+	font-size: 50px;
+}
+
+.introduction hr{
+	width: 50vw;
+	border-width: 3px;
+	position: relative;	
+	border-color: black;
+	margin: auto;
+}
+
+.introduction span{
+	font-weight: 700;
+	font-size: 30px;
+}
+
+#arrow{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 0px;
+    border-top: 10vh solid rgb(2, 168, 243);
+    border-left: 10vh solid transparent;
+    border-right: 10vh solid transparent;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#arrow button{
+	top: -30vh;
+	left: -5vw;
+	position: absolute;
+	width: 200px;
+	padding: 30px;	
+	background-color: rgb(250, 250, 250);
+	border-width: 0;
+	border-radius: 10px;
+	font-weight: 700;
+	color: white;
+	transition: all 4s ease-in;
+    -webkit-animation: mymove 4s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 4s infinite;
+    box-shadow: 0 2px 2px #747474;
+    color: black;
+}
+
+
+#arrow button:hover{
+	color: blue;
+	cursor: pointer;
+	box-shadow: 4px 4px 4px 4px rgba(250, 250, 250, .5);
+}
+
+@-webkit-keyframes mymove {
+	25% {transform: scale(.5);}
+    50% {transform: scale(1);}
+    75% {transform: scale(1.5);}
+    100% {transform: scale(2);}
+}
+
+@keyframes mymove {
+    25% {transform: scale(.5);}
+    50% {transform: scale(1);}
+    75% {transform: scale(1.5);}
+    100% {transform: scale(2);}
+}
+footer p{
+	float: right;
+}
+
+
+
+
+
+
+
+
