@@ -7,6 +7,7 @@ body{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	overflow-x: hidden;
 }
 
 .page-starter{
@@ -63,6 +64,11 @@ body{
 	display: inline-block;
 	line-height: 5vh;
 	padding: 2vh 5px;
+}
+
+#navbar-items ul li a {
+	text-decoration: none;
+	color: inherit;
 }
 
 #navbar-items ul li:hover{
@@ -124,9 +130,9 @@ body{
 	border-radius: 10px;
 	font-weight: 700;
 	color: white;
+    animation: mymove 4s infinite;
 	transition: all 4s ease-in;
     -webkit-animation: mymove 4s infinite; /* Chrome, Safari, Opera */
-    animation: mymove 4s infinite;
     box-shadow: 0 2px 2px #747474;
     color: black;
 }
@@ -151,9 +157,253 @@ body{
     75% {transform: scale(1.5);}
     100% {transform: scale(2);}
 }
-footer p{
+/*footer p{
 	float: right;
+}*/
+
+
+
+
+/*edgar*/
+
+footer{
+	margin-top: 15vh;
+	bottom: 0;
 }
+
+#nav{
+	text-align: center;
+}
+
+#nav ul{
+	text-align: center;
+
+}
+
+#nav ul li{
+	display: inline-block;
+	height: 62px;
+}
+
+#nav ul li a{
+	padding: 20px;
+	background: red;
+	color: white;
+	padding: 20px 50px;
+	font-size: 2em;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+#nav ul li a:hover{
+	background-color: #ffb424;
+	box-shadow: inset 0 0 1em #363636, 0 0 1em #fff;;
+}
+
+#nav ul li a:active{
+	background-color: #ff8f00; 
+}
+#last-item{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#creative-developers{
+	text-align: center;
+	padding-bottom: 10vh;
+}
+
+#creative-developers p{
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+#creative-developers i{
+	padding: 0 30px;
+}
+
+#creative-developers img{
+	display: inline-block;
+	border-radius: 50%;
+	align-items: center;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    font-size: 2em;
+    font-weight: 1000;
+    color: red;
+    font-family: fantasy;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    font-size: 2em;
+    font-weight: 1000;
+    color: red;
+    font-family: fantasy;
+}
+
+#t{
+	height: 130px;
+	width: 130px;
+}
+
+#a{
+	height: 200px;
+	width: 200px;
+}
+
+#m{
+	height: 200px;
+	width: 200px;
+}
+
+#hu{
+	height: 130px;
+	width: 130px;
+}
+
+#h{ 
+	font-weight: 700;
+    color:red ;
+    text-decoration:wavy;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.wrap {
+    min-height: 100%;
+    height: 100%;
+    margin: auto; /* Set footer height. */
+    box-sizing: border-box;
+}
+
+#happy-customers{
+  border-right: 1px solid #888888;
+}
+
+.customers{
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin: 70px 150px 80px 150px;
+  padding: 50px 30px 50px 30px;
+  box-sizing: border-box;
+}
+
+.subscribe{
+    text-align: center;
+    color: white;
+    background-image: url(../img/images.jpg);
+    padding: 8vh;
+    background-position: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    clear: both;
+}
+
+form{
+	justify-content: center;
+	display: inline-block;
+}
+
+.subscribe h1{
+	font-family: Arial Black;
+}
+
+.subscribe input{
+	text-align: center;
+	padding: 1vh;
+	font-size: 1.5em;
+	clear: both;
+}
+
+.subscribe button{
+	border-width: 0;
+	border-radius: 10px;
+	padding: 1vh;
+	clear: both;
+	width: 10em;
+	background: 
+}
+
+.footer{
+    color: white;
+    background: #fff;
+    text-align: center;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+
+.footer p{
+	color: black;
+	font-weight: 700;
+	padding: 20px;
+	bottom: 0;
+}
+
+.footer h1{
+	text-align: center;
+}
+
+.nav {
+ text-align: left;
+ display: none;
+ text-align: center;
+}
+
+.nav li {
+ background-color: #11ffee00 ;
+ list-style: none;
+ text-decoration: none;
+ font-size: 30px;
+ color: black;
+
+}
+
+.nav-btn {
+ display: block;
+ font-size: 40px;
+ cursor: pointer;
+ text-align: left;
+}
+
+#social-media-images{
+	display: inline-block;
+	transition: all 0.3s ease-in;
+}
+
+#social-media-images img{
+	width: 50px;
+	height: 50px;
+	border-radius: 20%;
+	box-sizing: border-box;
+	position: relative;
+	padding: auto;
+	margin: 0 10px 0 10px;
+}
+
+#social-media-images img:hover{
+	transform: scale(2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

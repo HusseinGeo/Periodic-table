@@ -38,7 +38,8 @@ main h1 {
 
 @media screen and (min-width: 1920px) {
 	.elements {
-	font-size: 18px; } 
+		font-size: 18px; 
+	} 
 }
 
 .element {
@@ -101,6 +102,8 @@ main h1 {
 
 	.description {
 		display: none; 
+		position: absolute;
+		margin: auto;
 	}
 
 	.description:target {
