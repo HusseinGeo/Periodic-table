@@ -1,0 +1,27 @@
+
+
+
+
+/*
+  background-image: url(../assets/Images/image1.jpg);
+  background-size: cover;
+  padding-top: 100px;
+
+*/
+
+.item {
+  height: 600px;
+  overflow-y: hidden;
+}
+
+.item img {
+  width: 100%;
+
+
+}h1{
+  text-transform: uppercase;
+
+}
+ #li img {
+   height: -200px;
+ }
