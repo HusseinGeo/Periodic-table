@@ -10,6 +10,10 @@ body{
 	overflow-x: hidden;
 }
 
+header{
+	background: white;
+}
+
 .page-starter{
 	position: relative;
 	left: 0;
@@ -19,10 +23,17 @@ body{
 	margin: 0 auto;
 	width: 100%;
 	z-index: 10;
+	border-bottom: 2px solid gray;
+}
+
+#content-align{
+	width: 80%;
+	margin: auto;
+	box-sizing: border-box;
 }
 
 #navbar{
-	background: #D0D0FF;
+	background: #fff;
 	padding: 0;
 	position: relative;
 	left: 0;
@@ -59,11 +70,14 @@ body{
 
 #navbar-items ul li{
 	align-content: center;
-	border-right: 1px solid gray;
 	margin: auto;
 	display: inline-block;
 	line-height: 5vh;
 	padding: 2vh 5px;
+}
+
+#navbar-items ul li:not(:last-child){
+	border-right: 1px solid gray;
 }
 
 #navbar-items ul li a {
@@ -85,6 +99,7 @@ body{
 	align-content: center;
 	text-align: center;
 	padding: 180px 0;
+	border-top: 2px solid gray;
 }
 
 .introduction p{
