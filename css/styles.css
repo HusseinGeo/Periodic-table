@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -100px; /* Set footer height. */
+}
+
+footer, .push {
+    height: 100px; /* Set footer height. */
+    /* clear: both; */ /* Muti-column fix.*/
+}
+
+#happy-customers{
+  border-right: 1px solid #888888;
+  margin-top: 1%;
+
+}
+.customers{
+
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-top: 70px;
+  margin-bottom: 80px;
+  margin-right: 150px;
+  margin-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+
+}
+#h{
+  color:red ;
+  text-decoration:wavy;
+}
+.subscribe{
+  text-align: center;
+  color: white;
+  background-image: url(../Image/images.jpg);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+}
+
+.btn-anita{
+  background: #11ffee00;
+  width: 150px;
+}
+
+
+ .Team  i .left .right{
+
+   border: solid red;
+   border-width: 3px 3px 3px 0;
+   display: inline-block;
+   padding: 4px;
+
+ }
+.footer{
+  color: white;
+  background: #808080;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+}
+
+.sub-footer{
+  float: bottom;
+
+}
+.nav {
+ text-align: left;
+ display: none;
+ text-align: center;
+}
+
+.nav li {
+ background-color: #11ffee00 ;
+ list-style: none;
+ text-decoration: none;
+ font-size: 30px;
+ color: black;
+
+}
+
+.nav-btn {
+ display: block;
+ font-size: 40px;
+ cursor: pointer;
+ text-align: left;
+}
+
+#social-media-images{
+	display: inline-block;
+}
+
+#social-media-images img{
+	width: 50px;
+	height: 50px;
+	border-radius: 20%;
+}
+
+#social-media-images img:hover{
+	transform: scale(2);
+}
+
+.footer p{
+	color:#0000ff;
+}
+
+.footer:hover{
+	color:#bbff00;
+}
+
+.footer {
+	color:#bbff00;
+	transition: all 0.3s ease;
+}
+
+#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: orange;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #ff8f00; }
