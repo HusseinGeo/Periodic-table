@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	box-sizing: border-box;
+	background-color: #3b3b3a;
+}
+
+#slide-title{
+	margin-top: 15vh;
+	margin-bottom: 5vh;
+	text-align: center;
+	font-weight: 1000;
+	font-size: 4em;
+	display: block;
+	top: 100vh;
+	color: #fee;
+	text-shadow: 1px 1px #fff 1px 1px #fff;
+}
+
+form{
+	background: #303b3b;
+	width: 30%;
+	margin: auto;
+	box-sizing: border-box;
+	border: 1px solid #303b3b;
+	box-shadow: 0 0 5px 5px #232323;
+	padding:7vh 7vw;
+}
+
+.input-group{
+	padding: 2vh 0;
+	font-size: 2em;
+	font-weight: 1000;
+	opacity: .9;
+}
+
+i{
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.input-group-addon{
+	background: #212c2c;
+	border-color: #212c2c;
+	box-shadow: 0 0 5px 5px #888;
+}
+
+input{
+	font-size: 3em;
+	align-items: center;
+	height: 4vh;
+	background: #212c2c;
+}
+
+#name{
+
+	background: #212c2c;
+	border-color: #212c2c;
+	color: white;
+	padding: 1em;
+	font-size: 0.7em;
+	box-shadow: 0 0 5px 5px #888;
+}
+
+#password{
+	background: #212c2c;
+	border-color: #212c2c;
+	color: white;
+	padding: 1em;
+	font-size: 0.7em;
+	box-shadow: 0 0 5px 5px #888;
+}
+
+button{
+	float: right;
+	padding: .7em 2.5em;
+	background-color: #2d97e1;
+	border-width: 0;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+#bttn a{
+	text-decoration: none;
+	color: black;
+}
+
+button:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0 5px 5px #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -16,6 +16,8 @@ body {
 	width: 90vw;
 	margin: 1vh auto;
 	color: black; 
+	overflow-x: hidden;
+	opacity: 1;
 }
 
 main h1 {
@@ -141,10 +143,18 @@ main h1 {
 	} 
 }
 
+.descriptions{
+	width: auto;
+	margin: auto;
+	box-sizing: border-box;
+}
+
 .description {
+	position: absolute;
 	padding: 1em;
 	margin: 2em 0;
-	text-overflow: ellipsis; 
+	width: 90vw;
+	box-sizing: border-box;
 }
 
 .description h2 {

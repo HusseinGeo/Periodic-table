@@ -20,10 +20,25 @@ header{
 	top: 0;
 	height: 9vh;
 	background-color: #363636;
-	margin: 0 auto;
+	margin: auto;
 	width: 100%;
 	z-index: 10;
 	border-bottom: 2px solid gray;
+	align-items: center;
+}
+
+.page-starter h1{
+	text-align: center;
+	font-size: 30px; 
+	color: red;
+	padding-top: 2vh;
+	font-weight: 500;
+}
+
+.page-starter h1 span{
+	color: yellow;
+	font-weight: 700;
+	text-shadow: 2px 2px #363636;
 }
 
 #content-align{
@@ -150,13 +165,14 @@ header{
     -webkit-animation: mymove 4s infinite; /* Chrome, Safari, Opera */
     box-shadow: 0 2px 2px #747474;
     color: black;
+    box-shadow: inset 0 0 20px #000000;
 }
 
 
 #arrow button:hover{
 	color: blue;
 	cursor: pointer;
-	box-shadow: 4px 4px 4px 4px rgba(250, 250, 250, .5);
+	box-shadow: inset 0 0 50px #000000;
 }
 
 @-webkit-keyframes mymove {
