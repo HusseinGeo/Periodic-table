@@ -1,6 +1,6 @@
 # **PERIODIC TABLE**
 
-#### *A website about the first 20 periodic table elements, 2_nd_ November 2017 _version 1*
+#### *A website about the first 20 periodic table elements, 2_nd_ November 2017 _version 1.*
 
 #### **By:** 
 
