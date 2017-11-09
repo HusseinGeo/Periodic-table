@@ -4,10 +4,10 @@
 
 #### **By:** 
 
- ..*Hussein Mulla
- ..*Tonny Magaki
- ..*Edgar Amendi
- ..*Abdihakim Hassan
+* Hussein Mulla
+* Tonny Magaki
+* Edgar Amendi
+* Abdihakim Hassan
 
 ## **Description**
 
@@ -21,9 +21,9 @@ This is a web app listing information about the first 20 periodic table elements
 
 ## **Technologies Used**
 
- ..*HTML
- ..*CSS
- ..*JAVASCRIPT
+* HTML
+* CSS
+* JAVASCRIPT
 
 ### **License**
 
