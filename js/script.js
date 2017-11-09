@@ -21,31 +21,10 @@ $(function(){
 		}
 
 		else if (password.length > 6){
+			// var userInput = $(".introduction").append('Hello ' + name.text() + ", thanks for visiting our site");
 			window.location = "demo/intro.html";
+			
 		}
-	});
-
-	var delay=10, setTimeoutConst;
-    $('.key .group-base').on('hover', function() {
-         setTimeoutConst = setTimeout(function(){
-                //do something
-		$(".element)").css("opacity", "0.2");
-         }, delay);
-    }, function(){
-        clearTimeout(setTimeoutConst );
-    });
-
-	
-
-	$(".key .group-sectioning").mouseover(function(event) {
-		/* Act on the event */
-		event.preventDefault();
-		$(".element").not(".group-sectioning").css("opacity", "0.2");
-	});
-		
-		
 
 	});
-// $(document).ready(function(){
-//   alert("rdfgvhb");
-// });
+});

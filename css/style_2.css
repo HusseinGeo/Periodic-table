@@ -20,6 +20,40 @@ body {
 	opacity: 1;
 }
 
+#back{
+	font-weight: 1000;
+	font-size: 1em;
+	position: absolute;
+	background: rgb(2, 150, 180);
+	left: 1vw;
+	line-height: 2em;
+	border-width: 0;
+	border-radius: 10px;
+	animation: mymove 3s infinite;
+	transition: all 3s ease-in;
+    -webkit-animation: mymove 3s infinite; /* Chrome, Safari, Opera */ 
+}
+
+@-webkit-keyframes mymove {
+    20% {transform: scaleX(1);}
+    40% {transform: scaleY(1);}
+    60% {transform: scaleX(1.5);}
+    80% {transform: scaleY(1.5);}
+    100% {transform: scaleX(2.5);}
+}
+
+@keyframes mymove {
+    20% {transform: scaleX(1);}
+    40% {transform: scaleY(1.5);}
+    60% {transform: scaleX(1.5);}
+    80% {transform: scaleY(2.5);}
+    100% {transform: scaleX(2.5);}
+}
+
+#back:hover{
+	cursor: pointer;
+}
+
 main h1 {
 	font-family: Georgia, serif;
 	text-align: center;
