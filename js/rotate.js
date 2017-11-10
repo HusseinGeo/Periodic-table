@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var rotate = function(){
     $(".demo1 .rotate").textrotator({
-        animation: "flipCubeUp",
+        animation: "fade",
         speed: 1000
       });
   }
