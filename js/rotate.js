@@ -1,8 +1,8 @@
 $(document).ready(function(){
   var rotate = function(){
     $(".demo1 .rotate").textrotator({
-        animation: "spin",
-        speed: 2000
+        animation: "flipCubeUp",
+        speed: 1000
       });
   }
 
